@@ -1,0 +1,9 @@
+﻿comandos_go
+
+
+go env = mostra todas as variáveis do Go
+
+go env GOPATH -> workspace do usuário
+go env GOROOT -> pasta de instalação do GO
+
+	
