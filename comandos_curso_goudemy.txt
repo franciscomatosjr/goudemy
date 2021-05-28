@@ -6,4 +6,46 @@ go env = mostra todas as variáveis do Go
 go env GOPATH -> workspace do usuário
 go env GOROOT -> pasta de instalação do GO
 
-	
+Fala galera, beleza?
+
+Essa pequena aula é apenas para avisar que a partir de uma atualização mais recente, o Go está trabalhando com módulos por padrão. Então vai ser necessário utilizar o comando
+
+go mod init nomeDoPacote
+
+Esse comando vai ser a pasta principal do projeto do curso. Feito isso, os comandos devem funcionar normalmente!
+
+Bons estudos!
+
+comentários //
+comentário em várias linhas /*  */
+
+go
+go help get - comando utilizado para atualizar 
+
+documentação
+godoc -http:6060
+
+
+sudo apt-get install golang-doc
+
+> go vet arquivo.go
+
+ele mostra as vulnerabilidades do seu código
+
+para executar um projeto go
+
+> go build arquivo.go
+
+depois disso ele te dará o retorno do componente que deverá ser utilizado
+
+para compilar e executa, deve-se digitar:
+
+> go run arquivo.go
+
+Instalar o pacote dos drivers
+
+> go get -u github.com/go-sql-driver/mysql
+
+
+
+
